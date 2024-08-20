@@ -981,7 +981,7 @@ p.size-50{
 .skill-box > .skills-circle > ul > li {
   width: 150px;
   height: 150px;/*원크기조정가능*/
-  background-color: #aaa;/*1.bar 채워지지않은 비워있는 color*/
+  background-color: #c7d3db;/*1.bar 채워지지않은 비워있는 color*/
   border-radius: 50%;
   position: relative;
   display: inline-block;
@@ -990,7 +990,7 @@ p.size-50{
 }
 
 .skill-box > .skills-circle > ul > li > span {
-  color:#233445;
+  color:#284564;
   font-size:30px;
   padding:1.5em;
 }
@@ -1012,7 +1012,7 @@ p.size-50{
   display: block;
   width: 100%;
   height: 100%;
-  background: #649bc5;/*bar 채워지는 color*/
+  background: #e9266d;/*bar 채워지는 color*/
   clip: rect(0, 75px, 150px, 0);
 }
 .skill-box > .skills-circle > ul > li > span.bar-circle-left {
