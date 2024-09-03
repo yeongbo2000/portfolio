@@ -358,7 +358,7 @@ a.active {
 	}
 	.container h2{
 		text-align:center;
-		font-size:90px;
+		font-size:70px;
 		color:#233445;
 		font-family: 'Lato', sans-serif;
 	}
@@ -389,6 +389,9 @@ a.active {
 		background: #fff;
 		top: 9px;
 	}
+    nav ul{
+        width: 90%;
+    }
 }	
 
 
@@ -405,17 +408,24 @@ a.active {
 @media (max-width:500px) {
     #about {
         padding: 200px 0 100px;
+        width: 100%;
     }
     .about-img-div{
+        width: 80%;
         position: absolute;
-        right: 50%;
-        margin-right: -750px;
-        bottom: 0;
-        z-index: 100;
+        z-index: 99;
+        top: 0;
+        left: 10%;
+        height: auto;
     }
-    .about-img-div img {
-        width: 550px;
-        display: block;
+    .shadow{
+        display: none;
+    }
+    .ani1{
+        display: none;
+    }
+    .ani2{
+        display: none;
     }
 }
 
@@ -516,18 +526,19 @@ a.active {
 }
 .h{
     padding-top: 15px;
-    color:#233445;
+    color:#1a4777;
 	font-weight:800;
     font-size: 18px;
 }
 .h-1{
 	font-size:16px;
 	font-weight:600;
+    margin: 20px 0;
 }
 
 .h-2{
+    font-size:16px;
 	font-weight:600;
-    padding-bottom: 10px;
 }
 
 /* projects section
@@ -1263,7 +1274,7 @@ fieldset {
         margin: 6px;
     }
     nav li a {
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 
